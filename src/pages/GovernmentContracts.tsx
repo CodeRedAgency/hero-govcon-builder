@@ -17,6 +17,14 @@ const GovernmentContracts = () => {
     { code: "561720", description: "Janitorial Services" },
     { code: "561740", description: "Carpet and Upholstery Cleaning Services" },
     { code: "561790", description: "Other Services to Buildings and Dwellings" },
+    { code: "238220", description: "Plumbing, Heating, and Air-Conditioning Contractors" },
+    { code: "238210", description: "Electrical Contractors and Other Wiring Installation Contractors" },
+    { code: "484110", description: "General Freight Trucking, Local" },
+    { code: "493110", description: "General Warehousing and Storage" },
+    { code: "488510", description: "Freight Transportation Arrangement" },
+    { code: "541512", description: "Computer Systems Design Services" },
+    { code: "541519", description: "Other Computer Related Services" },
+    { code: "541513", description: "Computer Facilities Management Services" },
   ];
 
   return (

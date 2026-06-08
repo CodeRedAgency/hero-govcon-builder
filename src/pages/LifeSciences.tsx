@@ -45,12 +45,24 @@ const LifeSciences = () => {
       </section>
 
       {/* Introduction & Value Proposition */}
-      <section className="py-16 container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Securing the Biotech Supply Chain</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            Hero Industries is proud to announce the expansion of our government and commercial capabilities into the biotechnology and pharmaceutical supply sector. Leveraging our status as a Certified Minority Business Enterprise (MBE), we provide robust supply chain solutions and direct business development representation for FDA-compliant contract manufacturing partners.
-          </p>
+      <section className="py-20 container mx-auto px-4">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center max-w-6xl mx-auto">
+          <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <h2 className="text-3xl md:text-4xl font-bold">Securing the Biotech Supply Chain</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Hero Industries is proud to announce the expansion of our government and commercial capabilities into the biotechnology and pharmaceutical supply sector. Leveraging our status as a Certified Minority Business Enterprise (MBE), we provide robust supply chain solutions and direct business development representation for FDA-compliant contract manufacturing partners.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Our specialized expertise bridges the gap between state-of-the-art global CDMO facilities and clinical researchers, universities, and compounding pharmacies in the US, ensuring rigorous adherence to regulatory protocols.
+            </p>
+          </div>
+          <div className="lg:col-span-5 flex justify-center">
+            <img
+              src="/lifesciences_service.png"
+              alt="Futuristic Biotechnology Laboratory Sourcing"
+              className="rounded-2xl shadow-xl border border-muted w-full max-w-md object-cover aspect-video lg:aspect-square"
+            />
+          </div>
         </div>
       </section>
 

@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -63,8 +64,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm opacity-90">
+        <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm opacity-90 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>© COPYRIGHT 2024, ALL RIGHTS RESERVED - HERO INDUSTRIES</p>
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-primary-foreground/90">
+            <Link to="/about" className="hover:text-accent transition-colors hover:underline">About Us</Link>
+            <Link to="/services" className="hover:text-accent transition-colors hover:underline">Services</Link>
+            <Link to="/life-sciences" className="hover:text-accent transition-colors hover:underline">Life Sciences</Link>
+            <Link to="/articles" className="hover:text-accent transition-colors hover:underline">Articles & Research</Link>
+            <Link to="/contact" className="hover:text-accent transition-colors hover:underline">Contact</Link>
+          </div>
         </div>
       </div>
     </footer>
