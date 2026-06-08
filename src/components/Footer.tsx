@@ -12,7 +12,7 @@ const Footer = () => {
               Government Contract Product and Service Provider
             </p>
             <p className="text-sm opacity-90">
-              Serving local and federal government agencies nationwide, with a strong presence in Florida.
+              Serving local and federal government agencies nationwide, with a strong presence in California.
             </p>
           </div>
 
@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start space-x-2">
                 <MapPin size={18} className="mt-1 flex-shrink-0" />
-                <span className="text-sm">4032 Pinewood Lane, Weston, FL 33331, United States</span>
+                <span className="text-sm">3675 Huntington Dr. #211, Pasadena, CA 91107, United States</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={18} className="flex-shrink-0" />
@@ -45,6 +45,20 @@ const Footer = () => {
               <p><strong>SAM UEI:</strong> VMVHE3LAXNZ6</p>
               <p><strong>DUNS:</strong> 044365124</p>
               <p className="mt-4 font-semibold text-accent">MBE Certified</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-primary-foreground/20 pt-8 text-left text-xs opacity-80 space-y-4 mb-8">
+          <p className="font-semibold text-sm text-accent">Compliance Statement for Peptide Sales</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <p className="font-semibold mb-1">For Research:</p>
+              <p>Products listed under "Research Only" are supplied for laboratory research and product development purposes only. They are not scheduled controlled substances. They are not for diagnostic, therapeutic, or human consumption use.</p>
+            </div>
+            <div>
+              <p className="font-semibold mb-1">For Compounding Pharmacies:</p>
+              <p>Hero Industries strictly adheres to the FDA Federal Food, Drug, and Cosmetic (FD&C) Act. We supply Peptides and APIs only to registered 503A and 503B entities when the substance is not on the FDA's Prohibited List or when the drug product is not listed as "Commercially Available" without a shortage. It is the responsibility of the purchasing Pharmacy to verify the drug shortage list status (e.g., GLP-1 agents like Tirzepatide/Semaglutide) prior to purchase to ensure compliance with FDA compounding regulations.</p>
             </div>
           </div>
         </div>

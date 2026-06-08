@@ -1,9 +1,22 @@
-import { Wrench, Leaf, Shield, Truck, Cpu, FileDown } from "lucide-react";
+import { Wrench, Leaf, Shield, Truck, Cpu, FileDown, Dna } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const Services = () => {
   const services = [
+    {
+      icon: <Dna className="w-16 h-16 text-accent" />,
+      title: "Life Sciences & Research Compounds",
+      naics: "325412, 541714, 424210",
+      description: "Supply chain solutions and direct business development representation for FDA-compliant manufacturing partners of research peptides and active pharmaceutical ingredients.",
+      details: [
+        "Research Use Only (RUO) custom and catalog peptides (NAICS 541714)",
+        "Exclusive U.S. Business Development Agent for premier CDMOs",
+        "API & intermediate supply to 503A and 503B Compounding Pharmacies",
+        "Regulatory compliance support (cGMP, FDA registration, CoA, stability data)",
+        "Strict confidentiality & intellectual property safeguards under NDAs",
+      ],
+    },
     {
       icon: <Wrench className="w-16 h-16 text-accent" />,
       title: "Facility Maintenance",
@@ -72,6 +85,9 @@ const Services = () => {
   ];
 
   const naicsCodes = [
+    { code: "325412", description: "Pharmaceutical Preparation Manufacturing" },
+    { code: "541714", description: "Research and Development in Biotechnology (except Nanobiotechnology)" },
+    { code: "424210", description: "Drugs and Druggists' Sundries Merchant Wholesalers" },
     { code: "561210", description: "Facilities Support Services" },
     { code: "561720", description: "Janitorial Services" },
     { code: "561740", description: "Carpet and Upholstery Cleaning Services" },

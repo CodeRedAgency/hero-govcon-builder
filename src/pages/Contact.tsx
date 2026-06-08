@@ -149,9 +149,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Address</h3>
                       <p className="text-muted-foreground">
-                        4032 Pinewood Lane
+                        3675 Huntington Dr. #211
                         <br />
-                        Weston, FL 33331
+                        Pasadena, CA 91107
                         <br />
                         United States
                       </p>
@@ -165,7 +165,7 @@ const Contact = () => {
             <Card>
               <CardContent className="p-0">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.1!2d-80.3997!3d26.1003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDA2JzAxLjEiTiA4MMKwMjMnNTguOSJX!5e0!3m2!1sen!2sus!4v1234567890"
+                  src="https://maps.google.com/maps?q=3675%20Huntington%20Dr%20%23211,%20Pasadena,%20CA%2091107&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}

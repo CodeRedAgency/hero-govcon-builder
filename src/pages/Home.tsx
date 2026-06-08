@@ -1,10 +1,15 @@
-import { Shield, Wrench, Leaf, Truck, Cpu, CheckCircle2 } from "lucide-react";
+import { Shield, Wrench, Leaf, Truck, Cpu, CheckCircle2, Dna } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   const services = [
+    {
+      icon: <Dna className="w-12 h-12 text-accent" />,
+      title: "Life Sciences & Compounds",
+      description: "Secure sourcing for research peptides and CDMO distribution",
+    },
     {
       icon: <Wrench className="w-12 h-12 text-accent" />,
       title: "Facility Maintenance",
@@ -49,7 +54,7 @@ const Home = () => {
               Hero Industries: Innovative Solutions for Local and Federal Agencies
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
-              Providing mission-critical products and services in facility maintenance, logistics, and IT
+              Providing mission-critical life sciences, peptide supply, facility maintenance, logistics, and IT solutions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/services">
@@ -105,7 +110,7 @@ const Home = () => {
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Core Capabilities</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {services.map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 text-center">
